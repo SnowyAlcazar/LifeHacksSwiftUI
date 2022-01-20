@@ -14,6 +14,26 @@
 		416285CA279A18AA00B9E557 /* LifeHacksSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285C9279A18AA00B9E557 /* LifeHacksSwiftUITests.swift */; };
 		416285D4279A18AA00B9E557 /* LifeHacksSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285D3279A18AA00B9E557 /* LifeHacksSwiftUIUITests.swift */; };
 		416285D6279A18AA00B9E557 /* LifeHacksSwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285D5279A18AA00B9E557 /* LifeHacksSwiftUIUITestsLaunchTests.swift */; };
+		416285E3279A1BF500B9E557 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285E2279A1BF500B9E557 /* Model.swift */; };
+		416285E5279A1C2000B9E557 /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285E4279A1C2000B9E557 /* QuestionView.swift */; };
+		416285E7279A1CA600B9E557 /* EditProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285E6279A1CA600B9E557 /* EditProfileView.swift */; };
+		416285E9279A1CC300B9E557 /* TopQuestionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285E8279A1CC300B9E557 /* TopQuestionsView.swift */; };
+		416285EB279A1CCF00B9E557 /* TopTagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285EA279A1CCF00B9E557 /* TopTagsView.swift */; };
+		416285ED279A1CE300B9E557 /* TopUsersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285EC279A1CE300B9E557 /* TopUsersView.swift */; };
+		416285EF279A1CFC00B9E557 /* Votable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285EE279A1CFC00B9E557 /* Votable.swift */; };
+		416285F1279A1D3A00B9E557 /* QuestionRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285F0279A1D3A00B9E557 /* QuestionRow.swift */; };
+		416285F3279A1D5500B9E557 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285F2279A1D5500B9E557 /* SettingsView.swift */; };
+		416285F5279A1D5F00B9E557 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285F4279A1D5F00B9E557 /* Theme.swift */; };
+		416285F7279A1D6D00B9E557 /* Previews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285F6279A1D6D00B9E557 /* Previews.swift */; };
+		416285F9279A1D7B00B9E557 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285F8279A1D7B00B9E557 /* TestData.swift */; };
+		416285FB279A1DBA00B9E557 /* Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285FA279A1DBA00B9E557 /* Style.swift */; };
+		416285FD279A1DC900B9E557 /* RoundImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285FC279A1DC900B9E557 /* RoundImage.swift */; };
+		416285FF279A1DD700B9E557 /* TagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 416285FE279A1DD700B9E557 /* TagsView.swift */; };
+		41628601279A1DE400B9E557 /* Formatting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41628600279A1DE400B9E557 /* Formatting.swift */; };
+		41628603279A1E6400B9E557 /* QuestionView.QuestionDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41628602279A1E6400B9E557 /* QuestionView.QuestionDetails.swift */; };
+		41628605279A1E8500B9E557 /* QuestionView.AnswerDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41628604279A1E8500B9E557 /* QuestionView.AnswerDetails.swift */; };
+		41628607279A1E9900B9E557 /* QuestionView.Voting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41628606279A1E9900B9E557 /* QuestionView.Voting.swift */; };
+		41628609279A1EBE00B9E557 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41628608279A1EBE00B9E557 /* Color.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +64,26 @@
 		416285CF279A18AA00B9E557 /* LifeHacksSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LifeHacksSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		416285D3279A18AA00B9E557 /* LifeHacksSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksSwiftUIUITests.swift; sourceTree = "<group>"; };
 		416285D5279A18AA00B9E557 /* LifeHacksSwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeHacksSwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		416285E2279A1BF500B9E557 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		416285E4279A1C2000B9E557 /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		416285E6279A1CA600B9E557 /* EditProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileView.swift; sourceTree = "<group>"; };
+		416285E8279A1CC300B9E557 /* TopQuestionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopQuestionsView.swift; sourceTree = "<group>"; };
+		416285EA279A1CCF00B9E557 /* TopTagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopTagsView.swift; sourceTree = "<group>"; };
+		416285EC279A1CE300B9E557 /* TopUsersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopUsersView.swift; sourceTree = "<group>"; };
+		416285EE279A1CFC00B9E557 /* Votable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Votable.swift; sourceTree = "<group>"; };
+		416285F0279A1D3A00B9E557 /* QuestionRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionRow.swift; sourceTree = "<group>"; };
+		416285F2279A1D5500B9E557 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		416285F4279A1D5F00B9E557 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		416285F6279A1D6D00B9E557 /* Previews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Previews.swift; sourceTree = "<group>"; };
+		416285F8279A1D7B00B9E557 /* TestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
+		416285FA279A1DBA00B9E557 /* Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Style.swift; sourceTree = "<group>"; };
+		416285FC279A1DC900B9E557 /* RoundImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundImage.swift; sourceTree = "<group>"; };
+		416285FE279A1DD700B9E557 /* TagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagsView.swift; sourceTree = "<group>"; };
+		41628600279A1DE400B9E557 /* Formatting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatting.swift; sourceTree = "<group>"; };
+		41628602279A1E6400B9E557 /* QuestionView.QuestionDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.QuestionDetails.swift; sourceTree = "<group>"; };
+		41628604279A1E8500B9E557 /* QuestionView.AnswerDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.AnswerDetails.swift; sourceTree = "<group>"; };
+		41628606279A1E9900B9E557 /* QuestionView.Voting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.Voting.swift; sourceTree = "<group>"; };
+		41628608279A1EBE00B9E557 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +135,27 @@
 			isa = PBXGroup;
 			children = (
 				416285B8279A18A900B9E557 /* LifeHacksSwiftUIApp.swift */,
+				416285E2279A1BF500B9E557 /* Model.swift */,
+				416285E4279A1C2000B9E557 /* QuestionView.swift */,
+				416285E6279A1CA600B9E557 /* EditProfileView.swift */,
+				416285E8279A1CC300B9E557 /* TopQuestionsView.swift */,
+				416285EA279A1CCF00B9E557 /* TopTagsView.swift */,
+				416285EC279A1CE300B9E557 /* TopUsersView.swift */,
+				416285EE279A1CFC00B9E557 /* Votable.swift */,
+				416285F0279A1D3A00B9E557 /* QuestionRow.swift */,
+				416285F2279A1D5500B9E557 /* SettingsView.swift */,
+				416285F4279A1D5F00B9E557 /* Theme.swift */,
+				416285F6279A1D6D00B9E557 /* Previews.swift */,
+				416285F8279A1D7B00B9E557 /* TestData.swift */,
+				416285FA279A1DBA00B9E557 /* Style.swift */,
+				416285FC279A1DC900B9E557 /* RoundImage.swift */,
+				416285FE279A1DD700B9E557 /* TagsView.swift */,
+				41628600279A1DE400B9E557 /* Formatting.swift */,
 				416285BA279A18A900B9E557 /* ContentView.swift */,
+				41628602279A1E6400B9E557 /* QuestionView.QuestionDetails.swift */,
+				41628604279A1E8500B9E557 /* QuestionView.AnswerDetails.swift */,
+				41628606279A1E9900B9E557 /* QuestionView.Voting.swift */,
+				41628608279A1EBE00B9E557 /* Color.swift */,
 				416285BC279A18AA00B9E557 /* Assets.xcassets */,
 				416285BE279A18AA00B9E557 /* Preview Content */,
 			);
@@ -257,8 +317,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41628601279A1DE400B9E557 /* Formatting.swift in Sources */,
+				416285E7279A1CA600B9E557 /* EditProfileView.swift in Sources */,
+				416285EF279A1CFC00B9E557 /* Votable.swift in Sources */,
+				416285E5279A1C2000B9E557 /* QuestionView.swift in Sources */,
+				41628605279A1E8500B9E557 /* QuestionView.AnswerDetails.swift in Sources */,
+				416285E9279A1CC300B9E557 /* TopQuestionsView.swift in Sources */,
+				416285FB279A1DBA00B9E557 /* Style.swift in Sources */,
+				416285E3279A1BF500B9E557 /* Model.swift in Sources */,
+				41628607279A1E9900B9E557 /* QuestionView.Voting.swift in Sources */,
+				416285FF279A1DD700B9E557 /* TagsView.swift in Sources */,
+				416285FD279A1DC900B9E557 /* RoundImage.swift in Sources */,
+				41628603279A1E6400B9E557 /* QuestionView.QuestionDetails.swift in Sources */,
+				416285F9279A1D7B00B9E557 /* TestData.swift in Sources */,
+				41628609279A1EBE00B9E557 /* Color.swift in Sources */,
+				416285F7279A1D6D00B9E557 /* Previews.swift in Sources */,
 				416285BB279A18A900B9E557 /* ContentView.swift in Sources */,
+				416285F1279A1D3A00B9E557 /* QuestionRow.swift in Sources */,
+				416285ED279A1CE300B9E557 /* TopUsersView.swift in Sources */,
+				416285EB279A1CCF00B9E557 /* TopTagsView.swift in Sources */,
+				416285F5279A1D5F00B9E557 /* Theme.swift in Sources */,
 				416285B9279A18A900B9E557 /* LifeHacksSwiftUIApp.swift in Sources */,
+				416285F3279A1D5500B9E557 /* SettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
