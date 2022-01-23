@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - Vote
-enum Vote: Int {
+enum Vote: Int, Codable {
     case none = 0
     case up = 1
     case down = -1

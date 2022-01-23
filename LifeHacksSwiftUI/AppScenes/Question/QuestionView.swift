@@ -133,7 +133,7 @@ fileprivate typealias Comments = Content.Comments
 
 extension Content {
     struct Comments: View {
-        let comments: [Lifehacks.Comment]
+        let comments: [LifeHacksSwiftUI.Comment]
         
         var body: some View {
             GeometryReader { geometry in
@@ -154,7 +154,7 @@ extension Content {
 // MARK: - Comment
 extension Comments {
     struct Comment: View {
-        let comment: Lifehacks.Comment
+        let comment: LifeHacksSwiftUI.Comment
         
         @Environment(\.navigationMap) private var navigationMap
         
